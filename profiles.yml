@@ -1,0 +1,11 @@
+dbttutorial:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: dbttutorial-401519
+      dataset: camcdbttutorial
+      threads: 1
+      keyfile: /Users/cezar/key-gcp/dbttutorial-401519-dfdf909fde63.json
+      timeout_seconds: 300
